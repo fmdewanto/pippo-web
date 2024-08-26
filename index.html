@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ghiffary Pippo</title>
+
+    <style>
+        body{
+            width: 1000px;
+            margin: auto;
+        }
+        nav{
+            padding: 20px;
+           width: 100%;
+           display: flex;
+           justify-content: space-between; 
+        }
+        .logo{
+            float: left;
+        }
+        .logo img{
+            width: 100px;
+            height: 100px;
+        }
+        .menu{
+            float: right;
+            position: relative;    
+        }
+        .menu ul{
+            font-family: Arial, Helvetica, sans-serif;
+            list-style-type: none;
+        }
+        .menu ul li{
+            /* float: left; */
+            display: inline;
+            padding: 0px 16px 0px 16px;
+            text-decoration: none;
+        }
+        .menu ul li a{
+            text-decoration: none;
+        }
+        .menu ul li a:hover{
+            text-decoration: underline;
+        }
+       #home{
+           width: 100%;
+          height: 300px;
+           background-image: url("images/bannerweb.jpg");
+           background-size: cover;                  
+       }
+       .hero img{
+           width: 1000px;
+       }
+       .herotext{
+           text-align: center;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 30px;
+          color: white;
+       }
+       button{
+           background-color: tomato;
+           padding: 5px;
+       }
+       #image{
+           width: auto;
+           padding-top: 10px;
+       }
+       .imagetext{
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 40px;
+       }
+       .imagegallery{
+            display: flex;
+           padding: auto;
+           margin: auto;
+          justify-content: space-between;
+          margin: 10px;
+       }
+       .imagegallery img{
+           width:auto;
+           height: 400px;
+       }
+       .youtubetext{
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 40px;
+       }
+       .youtubegallery{
+            display: flex;
+           padding: auto;
+           margin: auto;
+          justify-content: space-between;
+          margin: 10px;
+       }
+       .contacttext{
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 40px;
+       }
+       .infocontact{
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 20px;
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+                <img src="images/logo gp.png" alt="logo gp">
+              
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#image">Image</a></li>
+                <li><a href="#youtube">Youtube</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="hero">
+            <!-- /* <img src="images/bannerweb.jpg" alt="banner"> */ -->
+        </div>
+        <div class="herotext">
+            <p>Selamat Datang</p>
+            <p>Ghiffary Pippo's Web</p>
+            <button>Kunjungi kami</button>
+            
+        </div>
+    
+    </section> 
+    <section id="image">
+        <div class="imagetext">
+            Image Gallery
+        </div>
+        <div class="imagegallery">
+            <img src="images/g1.jpg" alt="">
+            <img src="images/g2.jpg" alt="">
+            <img src="images/g3.jpg" alt="">
+            <img src="images/g4.jpg" alt="">
+            <img src="images/g5.jpg" alt="">
+            
+        </div>
+    </section>  
+
+    <section id="youtube">
+        <div class="youtubetext">
+            Youtube
+        </div>
+        <div class="youtubegallery">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BCKb2z1C6rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6K9xdYSmJWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>  
+    <section id="contact">
+        <div class="contacttext">
+            Contact
+        </div>
+        <div class="infocontact">
+           <p>Contact us @ ghiffarypippo</p>
+        </div>
+    </section>  
+</body>
+</html>
